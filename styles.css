@@ -1,0 +1,113 @@
+body{
+    font-family: 'Rowdies', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("../img/bg.jpg");
+    height: 200vh;
+}
+
+
+.left{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    left: 32px;
+    top: 20px;
+
+}
+
+
+.middle{
+    display: block;
+    margin:25px auto;
+    width: 50%;
+    /* border: 3px solid green; */
+}
+
+
+.right{
+    position: absolute;
+    right: 32px;
+    top: 20px;
+    display: inline-block;
+}
+
+
+
+/* Left  */
+.left img{
+    width: 70px;
+    filter: invert(100%);
+}
+
+.left div{
+    font-size: 10px;
+}
+
+/* Middle */
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 23px 15px;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(161, 160, 160);
+}
+
+
+
+
+/* Right   */
+.btn{
+    size: 10px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 7px 0px; 
+    font-family: 'Rowdies', cursive;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 100px 75px;
+    padding: 75px;
+    width: 34%;
+    border-radius: 28px;
+}
+
+
+.form-group input{
+    height: 5vh;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto ;
+    border-radius: 5px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
